@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #03bcc2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.tudo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+.quiz-container {
+    background-color: #93919bd1;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(32, 24, 24);
+    padding: 45px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.question {
+    margin-top: 35px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.option {
+    list-style: none;
+    padding: 5px;
+    cursor: pointer;
+   color: #ffffff;
+    text-align: center;
+}
+
+#submit-answer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #006064;
+    color: #fffffff1;
+    border: none;
+    border-radius: 16px;
+    padding: 15px 50px;
+    cursor: pointer;
+    margin-top: 35px;
+
+}
+
+#submit-answer:hover {
+    background-color: #000000;
+}
+#score{
+    color: rgb(255, 255, 255);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 25px;
+}
+/* .option{
+    font-size: larger ;
+    color: #ffffff;
+} */
+h1{
+    color: #006064;
+    font-size: 30px;
+}
+#question-text{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
